@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Práctica 5a</title>
+<meta charset="ISO-8859-1">
+</head>
+<body>
+	<form method="POST" action="/Practica5a/CalculadoraServlet">
+		<table>
+			<tr>
+				<td>Primer número:</td>
+				<td><input type="text" name="param1" size="20"></td>
+			</tr>
+			<tr>
+				<td>Segundo número:</td>
+				<td><input type="text" name="param2" size="20"></td>
+			</tr>
+			<tr>
+				<td>Operación:</td>
+				<td>
+					<table>
+						<tr>
+							<td>Sumar</td>
+							<td><input type="radio" name="param3" value="1" checked></td>
+						</tr>
+						<tr>
+							<td>Restar</td>
+							<td><input type="radio" name="param3" value="2"></td>
+						</tr>
+						<tr>
+							<td>Multiplicar</td>
+							<td><input type="radio" name="param3" value="3"></td>
+						</tr>
+						<tr>
+							<td>Dividir</td>
+							<td><input type="radio" name="param3" value="4"></td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Calcular"> <input
+					type="reset" value="Borrar"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
